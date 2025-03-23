@@ -4,13 +4,27 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="mi_quiz.css">
-		<title>Quiz</title>
+		<title>Quiz - Valen</title>
 	</head>
 	<body>
 		<header>
 			<h1>Quiz på Valen</h1>
 		</header>
-		<main>
+
+        <article>
+            <div id="quiz-container">
+                <div id="question"></div>
+                <div id="options"></div>
+                <div id="score">
+                    Riktig: <span id="correct-count">0</span> 
+                    Feil: <span id="incorrect-count">0</span>
+                </div>
+                <div id="disclaimer">Spørsmålene er laget av <a href="https://chat.mistral.ai">Le Chat</a> og er på ingen måte kvalitetssikret.</div>
+            </div>
+            <script src="script.js"></script>
+        </article>
+
+		<article>
 			<p>Quiz-sesongen er i gang på Valen Kafé!</p>
 			<p>For hver quiz samler lagene opp poeng til sammendraget. Sammendragspoeng bestemmes ut fra plassering i forhold til de andre lagene på quizen.</p>
             <p>Regler for poeng i sammendraget:</p>
@@ -20,7 +34,7 @@
                 <li>Ved uavgjort mellom lag, får de en gjennomsnittssum</li>
             </ul>
             <p>Laget med flest sammensdragspoeng ved slutten av sesongen (når er det?) vinner en fin premie.</p>
-		</main>
+		</article>
 
 
         <article>
